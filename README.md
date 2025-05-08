@@ -41,12 +41,12 @@ POST-http://localhost:4000/api/v1/user/login
     "password":"5432"
 }
 
-# Activities
+## Activities
 
 for getting Activities
 GET-http://localhost:4000/api/v1/activities
 
-# Bookings
+## Bookings
 
 POST-http://localhost:4000/api/v1/bookings
 {
@@ -55,9 +55,10 @@ POST-http://localhost:4000/api/v1/bookings
 
 GET-http://localhost:4000/api/v1/bookings/my-bookings
 
-# .env       //without .env file code is not work so first fix it in code
+## .env       //without .env file code is not work so first fix it in code
 
 MONGO_URI="mongodb+srv://task:task12@cluster0.4pzzmio.mongodb.net/"                        
 PORT=4000
+
 SECRET_KEY=aady
 
